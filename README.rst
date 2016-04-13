@@ -172,8 +172,8 @@ example, she might enforce time limits, by writing a program that passes all
 messages through to the parent until a clock runs out. Or her program might
 restrict message calls to have arguments that match a certain pattern.
 
-Typical access-control systems do not make this so easy. [ACLs
-don't](http://waterken.net/), as the simplest form of delegation is to share
+Typical access-control systems do not make this so easy. [http://waterken.net/ ACLs
+don't], as the simplest form of delegation is to share
 a password: un-attenuated and nigh-irrevocable. OAuth2 services occasionally
 provide "scopes" to attenuate authority, but all tokens must be obtained from
 the original issuer (no offline attenuation), and it requires extensive
